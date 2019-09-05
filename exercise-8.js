@@ -13,6 +13,9 @@ function pasanganTerbesar(number) {
     }
   }
   result.sort(function(a,b){return b-a});
+
+  //nama variable.sort(function(a,b){return b-a}) //terbesar
+  //nama variable.sort(function(a,b){return a-b}) //terkecil
   return result[0];
 }  
 
